@@ -45,6 +45,7 @@ function noWeakLink() {
   })
   // CODE HERE...
 
+
 }
 
 
@@ -74,7 +75,8 @@ function large() {
   return 'My name is ' + this.name + ' and I am very heavy!'
 }
 // CODE HERE...
-
+  let boundToElephant = large.bind(elephant.name)
+  boundToElephant()
 
 
 // *************
@@ -88,6 +90,11 @@ function large() {
 // and return the bound function.
 
 // CODE HERE...
+function deathStar(capacity, obj){
+  return capacity.bind(obj)
+
+
+}
 
 
 
@@ -103,6 +110,11 @@ function large() {
 // The closure function will return the combined value of assets and liabilities.
 
 // CODE HERE...
+function accountingOffice(assets){
+  return function liabilities(num){
+    return assets + num
+  }
+}
 
 
 
@@ -129,7 +141,15 @@ function large() {
 
 // CODE HERE...
 
+  function forgetter(str){
+    return function rememberall(str2){
+      return 
+    }
+  
 
+    
+
+  }
 
 // *************
 // * PROBLEM 6 *
@@ -156,3 +176,7 @@ function large() {
 // NOTE: Neither hunger nor danger should be able to exceed 100 or drop below 0.
 
 // CODE HERE...
+
+function frodo (num1, num2) {
+
+}

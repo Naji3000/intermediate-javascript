@@ -13,7 +13,9 @@
 // return the result of your updateAnimal invocation
 
 // CODE HERE...
+function callBinding(){
 
+}
 
 
 // *************
@@ -29,6 +31,10 @@
 
 // CODE HERE...
 
+function applyBinding(magicAnimals, updateAnimal, num){
+
+
+}
 
 
 // *************
@@ -48,7 +54,9 @@
 var foo;
 
 // CODE HERE...
-
+function promiseMe(){
+    
+}
 
 
 // *************
